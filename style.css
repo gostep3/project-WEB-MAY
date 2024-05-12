@@ -1,0 +1,156 @@
+.menu {
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    background-color: #394867;
+    margin: auto;
+    align-items: center;
+    list-style: none;
+    
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.a {
+    display: flex;
+    width: 450px;
+    height: 100px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(68, 68, 68);
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px;
+}
+.a .img {
+    width: 100px;
+
+}
+.p {
+    scroll-margin-top: 0;
+    margin: 0;
+    color: white;
+}
+.main {
+    inset: 15px 0 0 0;
+    position: relative;
+    font-size: 50px;
+    height: 1000px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    overflow: scroll;
+    flex-direction: column;
+    background-color: rgba(115, 156, 222, 0.524);
+}
+.name {
+    position: sticky;
+    top: 5px;
+    background-color: rgb(0, 208, 255);
+}
+* {
+    scroll-behavior: smooth;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    margin: 5px;
+}
+body{
+    background-color:  #F1F6F9;
+    margin: 0;
+    color: #212A3E;
+}
+label {
+    font-size: 30px;
+}
+input {
+    width: 250px;
+    font-size: 20px;
+    height: 30px;
+    margin: 5px;
+    border: 2px solid #212A3E;
+}
+h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+}
+h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+footer {
+    height: 100px;
+    margin: auto;
+    background-color: #394867;
+    color: white;
+    font-size: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.gh {
+    font-size: 50px;
+    background-color: blueviolet;
+    width: 30px;
+    color: white;
+    display: none;
+}
+.menu2 {
+    width: 100%;
+    display: none;
+    background-color: blueviolet;
+    margin: auto;
+    align-items: center;
+    list-style: none;
+    flex-direction: column;
+}
+a {
+    border-bottom: 2px solid blueviolet;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+
+@media (max-width: 600px) {
+    a {
+        background-color: blueviolet;
+        color: white;
+        margin: 15px;
+        padding: 10px;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .gh {
+        display: flex;
+    }
+    .menu {
+        display: none;
+    }
+    .gh:hover + .menu2 {
+        display: flex;
+        
+    }
+
+
+}
