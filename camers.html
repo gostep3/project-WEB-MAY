@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,59 +9,60 @@
 </head>
 <div id="preloader_malc">
 
-	<div>
+    <div>
 
-		Подождите, идет загрузка сайта ...
+        Подождите, идет загрузка сайта ...
 
-	</div>
+    </div>
 
 </div>
 
 <style type="text/css">
-	#preloader_malc {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background: rgba(0, 0, 0, .6);
-		z-index: 99
-	}
+    #preloader_malc {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, .6);
+        z-index: 99
+    }
 
-	#preloader_malc div {
-		background: #fff;
-		width: 260px;
-		height: 40px;
-		line-height: 40px;
-		border-radius: 8px;
-		font-family: arial;
-		font-size: 15px;
-		color: #111;
-		text-align: center;
-		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-		position: fixed;
-		z-index: 999;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		margin: auto
-	}
+    #preloader_malc div {
+        background: #fff;
+        width: 260px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 8px;
+        font-family: arial;
+        font-size: 15px;
+        color: #111;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto
+    }
 </style>
 
 <script type="text/javascript">
 
-	window.onload = function() {
+    window.onload = function () {
 
-		setTimeout(function() {
+        setTimeout(function () {
 
-			document.getElementById("preloader_malc").style.display = "none";
+            document.getElementById("preloader_malc").style.display = "none";
 
-		}, 400);
+        }, 400);
 
-	};
+    };
 
 </script>
+
 <body>
     <header>
         <ul class="menu">
@@ -80,30 +82,28 @@
             <a href="money.html">Оплата / Сроки</a>
             <a href="camers.html">Камеры</a>
         </div>
-        
+
     </header>
 
 
-    <main>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
+    <main class="camerss">
+        <h1>Камеры</h1>
+        <div class="camers">
+            <div><img class="camera" src="img/i (2).webp" alt=""></div>
+            <div><img class="camera" src="img/i (5).webp" alt=""></div>
+        </div>
+
+        <div class="camers">
+            <div><img class="camera" src="img/maxresdefault (1).jpg" alt=""></div>
+            <div><img class="camera" src="img/maxresdefault.jpg" alt=""></div>
+        </div>
     </main>
 
 
 
     <footer>
-        <p>Made with Love  by  gostep3 ^-^</p>
+        <p>Made with Love by gostep3 ^-^</p>
     </footer>
 </body>
+
 </html>

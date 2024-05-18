@@ -8,6 +8,32 @@
     list-style: none;
     
 }
+.hotels {
+    margin: auto;
+    width: 1280px;
+    justify-content: center;
+    align-items: center;   
+}
+.hotel {
+    display: flex;
+    margin: auto;
+    width: 1280px;
+    justify-content: center;
+    align-items: center;
+}
+.post{
+    color: black;
+    text-decoration: none;
+}
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+.hot{
+    margin: 5px;
+    width: 640;
+    height: 360px;
+}
 form {
     display: flex;
     justify-content: center;
@@ -38,7 +64,7 @@ form {
     color: white;
 }
 .main {
-    inset: 15px 0 0 0;
+    width: 100%;
     position: relative;
     font-size: 50px;
     height: 1000px;
@@ -49,6 +75,74 @@ form {
     flex-direction: column;
     background-color: rgba(115, 156, 222, 0.524);
 }
+main {
+    width: 768px;
+    border-radius: 16px;
+    margin: 16px auto;
+
+}
+.logo {
+    block-size: 64px;
+}
+.camerss {
+    margin: auto;
+    width: 1280px;
+    justify-content: center;
+    align-items: center;   
+}
+.camers {
+    display: flex;
+    margin: auto;
+    width: 1280px;
+    justify-content: center;
+    align-items: center;
+}
+.camera{
+    margin: 5px;
+    width: 640;
+    height: 360px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.city {
+    width: 32%;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon {
+    background-image: url('weather_icons.png');
+    width: 80px;
+    height: 80px;
+    background-size: 555%;
+}
+.w1 {
+    background-position: 4% 1%;
+}
+.w2 {
+    background-position: 95% 1%;
+}
+.w3 {
+    background-position: 50% 20%;
+}
+.w4 {
+    background-position: 25% 20%;
+}
+.w5 {
+    background-position: 50% 1%;
+}
+.w6 {
+    background-position: 75% 37%;
+}
+
 .name {
     position: sticky;
     top: 5px;
@@ -129,7 +223,9 @@ a {
 a:hover {
     border-bottom: 2px solid white;
 }
-
+.post:hover {
+    border-bottom: 2px solid #394867;
+}
 
 
 @media (max-width: 600px) {
