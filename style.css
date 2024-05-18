@@ -6,14 +6,16 @@
     margin: auto;
     align-items: center;
     list-style: none;
-    
+
 }
+
 .hotels {
     margin: auto;
     width: 1280px;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
+
 .hotel {
     display: flex;
     margin: auto;
@@ -21,19 +23,23 @@
     justify-content: center;
     align-items: center;
 }
-.post{
+
+.post {
     color: black;
     text-decoration: none;
 }
+
 .posts {
     display: flex;
     flex-direction: column;
 }
-.hot{
+
+.hot {
     margin: 5px;
     width: 640;
     height: 360px;
 }
+
 form {
     display: flex;
     justify-content: center;
@@ -41,6 +47,7 @@ form {
     flex-direction: column;
 
 }
+
 .a {
     display: flex;
     width: 450px;
@@ -54,15 +61,18 @@ form {
     padding: 5px;
     margin: 10px;
 }
+
 .a .img {
     width: 100px;
 
 }
+
 .p {
     scroll-margin-top: 0;
     margin: 0;
     color: white;
 }
+
 .main {
     width: 100%;
     position: relative;
@@ -75,38 +85,111 @@ form {
     flex-direction: column;
     background-color: rgba(115, 156, 222, 0.524);
 }
+
 main {
     width: 768px;
     border-radius: 16px;
     margin: 16px auto;
 
 }
+
+.figurs-of-img {
+    display: flex;
+}
+
+.postavki {
+    margin: auto;
+    width: 1000px;
+}
+
+.btn-scr {
+    color: white;
+    background-color: #212A3E;
+    padding: 15px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.figurs {
+    background: black;
+    overflow: hidden;
+}
+
+.images {
+    object-fit: cover;
+    opacity: 0.6;
+    width: 500px;
+    height: 350px;
+    padding: 5px 5px 0 5px;
+}
+
 .logo {
     block-size: 64px;
 }
+
+.posts {
+    z-index: 4;
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-size: 50px;
+}
+.posts1 {
+    z-index: 4;
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    font-size: 50px;
+}
+.posts2 {
+    z-index: 4;
+    color: #fff;
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    font-size: 50px;
+}
+.posts3 {
+    z-index: 4;
+    color: #fff;
+    top: 550px;
+    left: 900px;
+    font-size: 50px;
+    position: absolute;
+}
+
 .camerss {
     margin: auto;
     width: 1280px;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
+
 .camers {
     display: flex;
     margin: auto;
     width: 1280px;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.camera{
+
+.camera {
+
     margin: 5px;
     width: 640;
     height: 360px;
 }
+
 .row {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 .city {
     width: 32%;
     background-color: #fff;
@@ -118,27 +201,34 @@ main {
     justify-content: space-between;
     align-items: center;
 }
+
 .icon {
     background-image: url('weather_icons.png');
     width: 80px;
     height: 80px;
     background-size: 555%;
 }
+
 .w1 {
     background-position: 4% 1%;
 }
+
 .w2 {
     background-position: 95% 1%;
 }
+
 .w3 {
     background-position: 50% 20%;
 }
+
 .w4 {
     background-position: 25% 20%;
 }
+
 .w5 {
     background-position: 50% 1%;
 }
+
 .w6 {
     background-position: 75% 37%;
 }
@@ -148,6 +238,7 @@ main {
     top: 5px;
     background-color: rgb(0, 208, 255);
 }
+
 * {
     scroll-behavior: smooth;
 }
@@ -158,14 +249,17 @@ main {
     font-size: 25px;
     margin: 5px;
 }
-body{
-    background-color:  #F1F6F9;
+
+body {
+    background-color: #F1F6F9;
     margin: 0;
     color: #212A3E;
 }
+
 label {
     font-size: 30px;
 }
+
 input {
     width: 250px;
     font-size: 20px;
@@ -173,18 +267,21 @@ input {
     margin: 5px;
     border: 2px solid #212A3E;
 }
+
 h1 {
     align-items: center;
     display: flex;
     justify-content: center;
     font-size: 55px;
 }
+
 h2 {
     align-items: center;
     display: flex;
     justify-content: center;
     font-size: 30px;
 }
+
 footer {
     height: 100px;
     margin: auto;
@@ -195,6 +292,7 @@ footer {
     display: flex;
     justify-content: center;
 }
+
 .gh {
     font-size: 50px;
     background-color: blueviolet;
@@ -202,6 +300,7 @@ footer {
     color: white;
     display: none;
 }
+
 .menu2 {
     width: 100%;
     display: none;
@@ -211,6 +310,7 @@ footer {
     list-style: none;
     flex-direction: column;
 }
+
 a {
     border-bottom: 2px solid blueviolet;
     color: white;
@@ -223,6 +323,7 @@ a {
 a:hover {
     border-bottom: 2px solid white;
 }
+
 .post:hover {
     border-bottom: 2px solid #394867;
 }
@@ -237,15 +338,18 @@ a:hover {
         font-size: 16px;
         text-decoration: none;
     }
+
     .gh {
         display: flex;
     }
+
     .menu {
         display: none;
     }
-    .gh:hover + .menu2 {
+
+    .gh:hover+.menu2 {
         display: flex;
-        
+
     }
 
 
